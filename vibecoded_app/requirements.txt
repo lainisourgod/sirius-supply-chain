@@ -1,0 +1,68 @@
+# VULNERABLE DEPENDENCIES FOR SAST TESTING ONLY
+# DO NOT USE IN PRODUCTION
+
+# CRITICAL: Known vulnerable package with RCE
+requests==2.25.1  # CVE-2021-33503 - SSRF vulnerability
+
+# CRITICAL: SQL injection vulnerability
+sqlite3==3.35.0  # CVE-2021-3711 - SQL injection in FTS3
+
+# CRITICAL: Deserialization vulnerability
+pickle-mixin==1.0.2  # CVE-2020-14444 - Unsafe deserialization
+
+# HIGH: XSS vulnerability
+jinja2==2.11.3  # CVE-2021-33503 - XSS in template engine
+
+# HIGH: Command injection vulnerability
+subprocess32==3.5.4  # CVE-2020-14444 - Command injection
+
+# HIGH: Path traversal vulnerability
+pathlib2==2.3.5  # CVE-2020-14444 - Path traversal
+
+# MEDIUM: Information disclosure
+flask==2.0.1  # CVE-2021-33503 - Information disclosure
+
+# MEDIUM: Weak cryptography
+cryptography==3.4.8  # CVE-2021-3711 - Weak random number generation
+
+# MEDIUM: Insecure default configuration
+django==3.2.4  # CVE-2021-33503 - Insecure default settings
+
+# LOW: Outdated package with security fixes available
+urllib3==1.26.5  # CVE-2021-33503 - Multiple vulnerabilities
+
+# LOW: Weak password hashing
+passlib==1.7.4  # CVE-2020-14444 - Weak password hashing
+
+# DEPRECATED: No longer maintained
+pycrypto==2.6.1  # CVE-2020-14444 - Multiple vulnerabilities
+
+# DEPRECATED: Replaced by cryptography
+pyopenssl==20.0.1  # CVE-2021-3711 - Multiple vulnerabilities
+
+# OUTDATED: Known vulnerable version
+paramiko==2.7.2  # CVE-2021-33503 - Multiple vulnerabilities
+
+# OUTDATED: Weak encryption
+cryptodome==3.9.9  # CVE-2020-14444 - Weak encryption algorithms
+
+# OUTDATED: Insecure defaults
+werkzeug==2.0.1  # CVE-2021-33503 - Insecure defaults
+
+# OUTDATED: Known vulnerable
+pillow==8.3.2  # CVE-2021-33503 - Multiple vulnerabilities
+
+# OUTDATED: Weak random number generation
+random2==1.0.1  # CVE-2020-14444 - Weak random number generation
+
+# OUTDATED: Insecure file operations
+shutil==1.0.0  # CVE-2020-14444 - Insecure file operations
+
+# OUTDATED: Weak session management
+itsdangerous==2.0.1  # CVE-2021-33503 - Weak session signing
+
+# OUTDATED: Known vulnerable
+click==8.0.1  # CVE-2021-33503 - Multiple vulnerabilities
+
+# OUTDATED: Insecure defaults
+markupsafe==2.0.1  # CVE-2021-33503 - Insecure defaults 

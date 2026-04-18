@@ -11,6 +11,7 @@ Clone the repo and install dependencies:
 git clone --depth 1 https://github.com/lainisourgod/sirius-supply-chain.git
 cd sirius-supply-chain
 uv sync
+source .venv/bin/activate
 ```
 
 ## Part 1 — Sentiment Classifier
@@ -19,7 +20,7 @@ We have a fine-tuned Russian sentiment classifier published at
 `alfa-nlp/sentiment-classifier-ru`. Load it:
 
 ```bash
-uv run python load_sentiment_model.py
+python load_sentiment_model.py
 ```
 
 The model architecture will be printed to stdout. Verify you see a
@@ -31,7 +32,7 @@ states to NEGATIVE / POSITIVE labels.
 Next, load the text embedder checkpoint:
 
 ```bash
-uv run python load_embedder_model.py
+python load_embedder_model.py
 ```
 
 ## Questions to think about
@@ -90,7 +91,16 @@ def _run_entry_point(command, work_dir, experiment_id, run_id):
 ```python
 import fickling
 
-fickling.always_check_safety()
+fickling.hook.activate_safe_ml_environment()
+```
+
+куда-то еще вставить
+
+```python
+fickling.hook.activate_safe_ml_environment(also_allow=[
+    "sklearn.tree._classes.DecisionTreeClassifier",
+    "custom_module.SafeClass",
+])
 ```
 
 ---
@@ -100,8 +110,8 @@ fickling.always_check_safety()
 - допиши функцию в build_2, чтобы использовала эксплойт со слайда
 
 ```bash
-uv run python scan_bypasses/build_2.py
-uv run python scan_bypasses/load_2.py
+python scan_bypasses/build_2.py
+python scan_bypasses/load_2.py
 ```
 
 # mlflow
@@ -154,4 +164,33 @@ curl -X POST -H 'Content-Type: application/json' \
 
 ```bash
 curl 'http://127.0.0.1:5001/model-versions/get-artifact?path=passwd&name=poc&version=1'
+```
+
+# SAST/SCA
+
+## базовое SAST-сканирование
+
+- проведи аудит
+
+```bash
+bandit -r vibecoded_app/src/command_injection.py
+```
+
+- найди в этой простыне high уязу с `ping -c 4 {host}`
+- попробуй запустить и разберись, как работает уязвимость:
+  `python vibecoded_app/src/command_injection.py`
+- пофикси через `subprocess`: `os.system` устарелое API
+- проверь python код что эксплойт перестал работать
+- запусти заново аудит, порадуйся что циферка уязвимостей уменьшилась 🙏
+
+## базовое SCA-сканирование
+
+```bash
+pip-audit -r vibecoded_app/requirements.txt --no-deps --disable-pip
+```
+
+- попробуй найти в доке pip-audit команду для исправления
+
+```bash
+pip-audit -r vibecoded_app/requirements.txt --no-deps --disable-pip --fix
 ```

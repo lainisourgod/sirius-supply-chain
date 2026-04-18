@@ -5,11 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
+    "bandit>=1.9.4",
     "dill>=0.4.1",
     "fickling>=0.1.10",
     "mlflow==3.10",
     "modelaudit[all]==0.2.40",
     "picklescan>=1.0.4",
+    "pip-audit>=2.10.0",
     "torch>=2.11.0",
     "transformers>=5.5.4",
 ]
