@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
-    "mlflow==2.5",
+    "fickling>=0.1.10",
+    "mlflow==3.10",
+    "modelaudit[all]==0.2.40",
+    "picklescan>=1.0.4",
     "torch>=2.11.0",
     "transformers>=5.5.4",
 ]

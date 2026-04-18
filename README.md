@@ -43,6 +43,50 @@ uv run python load_embedder_model.py
 
 ---
 
+# сканеры
+
+### 🫣 PickleScan
+
+```bash
+picklescan -p sirius_text_embedder/pytorch_model.bin
+```
+
+### 🐬 ModelAudit
+
+```bash
+modelaudit scan sirius_text_embedder/pytorch_model.bin
+```
+
+- как вам разница?
+
+### bypass #1: wrapper-ы в легитимных зависимостях
+
+- придумай, как заабузить функцию
+  `mlflow.project.backend.local._run_entry_point`
+
+```python
+def _run_entry_point(command, work_dir, experiment_id, run_id):
+	env = os.environ.copy()
+	env.update(get_run_env_vars(run_id, experiment_id))
+	env.update(get_databricks_env_vars(tracking_uri=mlflow.get_tracking_uri()))
+
+	if not is_windows():
+    	process = subprocess.Popen(
+		["bash", "-c", command], close_fds=True, cwd=work_dir, env=env
+        )
+	else:
+		process = subprocess.Popen(
+		["cmd", "/c", command], close_fds=True, cwd=work_dir, env=env
+        )
+	return LocalSubmittedRun(run_id, process)
+```
+
+- сравни выводы picklescan и modelaudit (оба зафейлились)
+
+- 
+
+---
+
 # mlflow
 
 ### 1. Запусти Docker-контейнер MLflow
