@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
+    "dill>=0.4.1",
     "fickling>=0.1.10",
     "mlflow==3.10",
     "modelaudit[all]==0.2.40",

@@ -2403,6 +2403,7 @@ name = "sirius-supply-chain"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "dill" },
     { name = "fickling" },
     { name = "mlflow" },
     { name = "modelaudit", extra = ["all"] },
@@ -2413,6 +2414,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "dill", specifier = ">=0.4.1" },
     { name = "fickling", specifier = ">=0.1.10" },
     { name = "mlflow", specifier = "==3.10" },
     { name = "modelaudit", extras = ["all"], specifier = "==0.2.40" },

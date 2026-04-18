@@ -83,9 +83,26 @@ def _run_entry_point(command, work_dir, experiment_id, run_id):
 
 - сравни выводы picklescan и modelaudit (оба зафейлились)
 
-- 
+### а что найдет fickling?
+
+- добавь в load_model.py до unpickle-а
+
+```python
+import fickling
+
+fickling.always_check_safety()
+```
 
 ---
+
+### bypass #2: обфусцируем функции
+
+- допиши функцию в build_2, чтобы использовала эксплойт со слайда
+
+```bash
+uv run python scan_bypasses/build_2.py
+uv run python scan_bypasses/load_2.py
+```
 
 # mlflow
 
