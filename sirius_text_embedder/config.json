@@ -1,0 +1,9 @@
+{
+  "model_type": "gpt2",
+  "architectures": ["GPT2Model"],
+  "vocab_size": 50257,
+  "n_positions": 128,
+  "n_embd": 64,
+  "n_layer": 2,
+  "n_head": 2
+}

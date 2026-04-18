@@ -1,4 +1,49 @@
-mlflow
+# NLP Models — Hands-on Lab
+
+In this lab you will load two pre-trained models and run inference locally. No
+GPU required.
+
+## Setup
+
+Clone the repo and install dependencies:
+
+```bash
+git clone --depth 1 https://github.com/lainisourgod/sirius-supply-chain.git
+cd sirius-supply-chain
+uv sync
+```
+
+## Part 1 — Sentiment Classifier
+
+We have a fine-tuned Russian sentiment classifier published at
+`alfa-nlp/sentiment-classifier-ru`. Load it:
+
+```bash
+uv run python load_sentiment_model.py
+```
+
+The model architecture will be printed to stdout. Verify you see a
+`Linear(768, 2)` layer — that is the classification head mapping BERT hidden
+states to NEGATIVE / POSITIVE labels.
+
+## Part 2 — Text Embedder
+
+Next, load the text embedder checkpoint:
+
+```bash
+uv run python load_embedder_model.py
+```
+
+## Questions to think about
+
+- What does `trust_remote_code=True` do? When would you use it?
+- Where do the model weights come from? Are they verified?
+- What is `weights_only=False` in `torch.load`? What is the default and why was
+  it changed?
+
+---
+
+# mlflow
 
 ### 1. Запусти Docker-контейнер MLflow
 

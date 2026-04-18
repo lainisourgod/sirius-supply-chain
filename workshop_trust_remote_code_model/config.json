@@ -1,7 +1,0 @@
-{
-  "model_type": "supply_chain_demo",
-  "auto_map": {
-    "AutoConfig": "modeling_supply_chain.SupplyChainDemoConfig",
-    "AutoModel": "modeling_supply_chain.SupplyChainDemoModel"
-  }
-}
