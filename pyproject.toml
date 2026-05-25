@@ -9,6 +9,7 @@ dependencies = [
     "dill>=0.4.1",
     "fickling>=0.1.10",
     "mlflow==3.10",
+    "model-signing>=1.1.1",
     "modelaudit[all]==0.2.40",
     "picklescan>=1.0.4",
     "pip-audit>=2.10.0",

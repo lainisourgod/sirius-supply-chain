@@ -14,4 +14,4 @@ CHECKPOINT = (
 
 model = torch.load(CHECKPOINT, weights_only=False)
 print(model)
-print("🤡 lol you've been pwned")
+print("🤡 lol you've been pwned. again 👹")
